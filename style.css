@@ -1,0 +1,738 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+}
+.menu-btn{
+    display: none;
+}
+.menu > a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+nav > .menu > a:hover{
+    text-decoration: underline;
+}
+.btn-1 > button{
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 1px solid white;
+    background-color:transparent;
+    border-radius: 30px;
+    transition: all 0.4s;
+}
+nav > .btn-1 > button:hover{
+    background-color: white;
+    color: black;
+}
+.content-1{
+    background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+    margin-top: -50px;
+    text-align: center;
+    width: 100%;
+    height: 1300px;
+    color: white;
+}
+.info > h1{
+    padding-top: 50px;
+    font-size: 60px;
+}
+.info > h5{
+    margin-top: -20px;
+}
+.info{
+    top: 180px;
+}
+.btn-2{
+    width: 180px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    transition: all 0.4s;
+}
+.btn-3{
+    margin-top: 10px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 180px;
+    height: 45px;
+    font-size: 17px;
+    transition: all 0.4s;
+}
+.content-1> .info > .btn-2:hover{
+    background-color:transparent;
+    color: white;
+    border: 1px solid white;
+}
+.content-1> .info > .btn-3:hover{
+    background-color: white;
+    color: black;
+}
+.content-1 > img{
+    margin-top: 40px;
+}
+.content-2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    align-items: center;
+}
+.content-2 > .card-1 > a:hover{
+    text-decoration: underline;
+}
+.content-2 > .card-2 > a:hover{
+    text-decoration: underline;
+}
+.content-2 > .card-3 > a:hover{
+    text-decoration: underline;
+}
+.content-2 > .card-1{
+    margin-top: 250px;
+}
+.content-2 > .card-2{
+    margin-top: 250px;
+}.content-2 > .card-3{
+    margin-top: 250px;
+}
+.content-2 > h1{
+    position: absolute;
+    margin-top: -400px;
+    font-size: 35px;
+    text-align: center;
+}
+.card-1{
+    width: 350px;
+    height: 400px;
+    text-align: left;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+.card-1 > img{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.card-1 > h1{
+    position: absolute; 
+    margin-top: 140px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+.card-1 > h4{
+    position: absolute; 
+    margin-top: 200px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+.card-1 > a{
+    position: absolute;
+    text-decoration: none;
+    color: rgb(89, 201, 238);
+    margin-top:350px;
+    margin-left: 30px;
+}
+.card-2{
+    width: 350px;
+    height: 400px;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    text-align: left;
+    background:linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%) ;
+}
+.card-2 > img{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.card-2 > h1{
+    position: absolute; 
+    margin-top: 140px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    color: white;
+}
+.card-2 > h4{
+    position: absolute; 
+    margin-top: 200px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    color: white;
+}
+.card-2 > a{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    margin-top:350px;
+    margin-left: 30px;
+}
+.card-3{
+    width: 350px;
+    height: 400px;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    text-align: left;
+}
+.card-3 > img{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.card-3 > h1{
+    position: absolute; 
+    margin-top: 140px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+.card-3 > h4{
+    position: absolute; 
+    margin-top: 200px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+.card-3 > a{
+    position: absolute;
+    text-decoration: none;
+    color: rgb(89, 201, 238);
+    margin-top:350px;
+    margin-left: 30px;
+}
+.content-3{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-3 > .info-3 > .btn-4:hover{
+    background-color: white;
+    color:rgb(89, 201, 238);
+    border: 1px solid rgb(89, 201, 238);
+}
+.btn-4{
+    transition: all 0.4s;
+    background-color:rgb(89, 201, 238) ;
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    color: white;
+}
+.content-3 > .info-3 > .btn-5:hover{
+    background-color: lightgreen;
+    color:white;
+    border: 1px solid lightgreen;
+}
+.btn-5{
+    transition: all 0.4s;
+    border: 1px solid lightgreen;
+    width: 170px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 15px;
+    background-color: transparent;
+    color: lightgreen;
+}
+.content-4{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center; 
+}
+.content-4 > .info-4 > .btn-4:hover{
+    background-color: white;
+    color:rgb(89, 201, 238);
+    border: 1px solid rgb(89, 201, 238);
+}
+.content-4 > .info-4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.btn-6{
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(89, 201, 238);
+}
+.content-5{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+}
+.content-5 > .info-5 > .btn-4:hover{
+    background-color: white;
+    color:rgb(89, 201, 238);
+    border: 1px solid rgb(89, 201, 238);
+}
+.content-5 > .info-5 > .btn-5:hover{
+    background-color: lightgreen;
+    color:white;
+    border: 1px solid lightgreen;
+}
+.content-6{
+    border-bottom:  1px solid gray;
+    width: 100%;
+    height: 1300px;
+    text-align: center;
+}
+.content-6 > .info-6 > .card-1 > .info > .btn-4:hover{
+    background-color: white;
+    color:rgb(89, 201, 238);
+    border: 1px solid rgb(89, 201, 238);
+}
+.info-6 > .card-1{
+    border: 1px solid #DEDEDE;
+    width: 335px;
+    height: 1067px;
+    left: 0px;
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.info-6 > .card-2{
+    border: 1px solid #DEDEDE;
+    width: 335px;
+    height: 1067px;
+    left: 0px;
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.info-6 > .card-3{
+    border: 1px solid #DEDEDE;
+    width: 335px;
+    height: 1067px;
+    left: 0px;
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.info-6 > .card-1 > h1{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.info-6 > .card-1 > h5{
+    margin-top: 100px;
+    margin-left: 85px;
+}
+.info-6 > .card-1 > img{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 40px;
+}
+.info-6 > .card-1 > .one{
+    position: absolute;
+    padding-top: 470px;
+    padding-left: 60px;
+}
+.info-6 > .card-1 > .info{
+    padding-top: 550px;
+    margin-left: -20px;
+    text-align: center;
+}
+.info-6 > .card-2 > h1{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.info-6 > .card-2 > h5{
+    margin-top: 100px;
+    margin-left: 85px;
+}
+.info-6 > .card-2 > img{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 40px;
+}
+.info-6 > .card-2 > .one{
+    position: absolute;
+    padding-top: 470px;
+    padding-left: 60px;
+}
+.info-6 > .card-2 > .info{
+    padding-top: 550px;
+    margin-left: -20px;
+    text-align: center;
+}
+.info-6 > .card-3 > h1{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.info-6 > .card-3 > h5{
+    margin-top: 100px;
+    margin-left: 85px;
+}
+.info-6 > .card-3 > img{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 40px;
+}
+.info-6 > .card-3 > .one{
+    position: absolute;
+    padding-top: 470px;
+    padding-left: 60px;
+}
+.info-6 > .card-3 > .info{
+    padding-top: 550px;
+    margin-left: -20px;
+    text-align: center;
+}
+.info-6{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.aaa{
+    color: gray;
+}
+.content-7{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+.content-7 > .btn-4:hover{
+    background-color: white;
+    color:rgb(89, 201, 238);
+    border: 1px solid rgb(89, 201, 238);
+}
+.content-7 > h1{
+    margin-top: 100px;
+    font-size: 50px;
+}
+.content-7 > h4{
+    color: gray;
+}
+.content-7 > input{
+    text-align: center;
+    width: 400px;
+    height: 50px;
+}
+footer{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    color: white;
+    background-color: rgb(26, 26, 94);
+}
+footer> .end > .end-1 > a:hover{
+    text-decoration: underline;
+}
+footer> .end > .end-2 > a:hover{
+    text-decoration: underline;
+}
+.end{
+    display: flex;
+}
+footer > .end > .end-1 > a{
+    font-size: 20px;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+footer > .end > .end-2 > a{
+    font-size: 20px;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+.end-1{
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.end-2{
+    display: flex;
+    flex-direction: column;
+}
+.end-4{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-left:90px ;
+}
+.end-5{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.zzz{
+    position: absolute;
+    margin-left: -65px;
+}
+.xxx{
+    margin-top: 70px;
+    position: absolute;
+    margin-left: -60px;
+}
+.vvv{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: -885px;
+}
+@media(max-width:992px){
+    .menu > a{
+        color: black;
+    }
+    nav > .menu > a:hover{
+
+        text-decoration: underline;
+    }
+    .menu{
+        display: unset;
+    }
+    .menu-btn{
+        display: unset;
+    }
+    .menu-btn {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        z-index: 1000;
+        overflow: hidden;
+      }
+      
+      .menu-btn span {
+        width: 30px;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: black;
+        transition: all 0.5s;
+      }
+      
+      .menu-btn span:nth-of-type(2) {
+        top: calc(50% - 5px);
+      }
+      
+      .menu-btn span:nth-of-type(3) {
+        top: calc(50% + 5px);
+      }
+      .menu {
+        z-index: 1000;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 500px;
+        padding: 15px;
+        background-color: rgb(255, 255, 255);
+        transform: translateX(-100%);
+        transition: transform 0.5s;
+        display: flex;
+        flex-direction: column;
+      }
+      .menu > a{
+          margin-top: 30px;
+      }
+      .menu > .btn-1{
+          margin-top: 30px;
+      }
+      .menu.active {
+        transform: translateX(0);
+      }
+      
+      .menu-btn.active span:first-of-type {
+        transform: translateX(100%);
+      }
+      
+      .menu-btn.active span:nth-of-type(2) {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+      }
+      
+      .menu-btn.active span:nth-of-type(3) {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+      }
+      
+}
+@media(max-width:992px){
+    nav{
+        margin-top: -45px;
+        display: flex;
+        align-items: center;
+        height: 150px;
+        width: 100vw;
+    }
+    
+    .content-1{
+        overflow-x: hidden;
+        height: 941px;
+        width: 100%;
+    }
+    .content-1 > img{
+        width: 100vw;
+        height: 224px;
+    }
+    .content-2{
+        text-align: center;
+        width: 100%;
+        height: 1700px;
+        display: flex;
+        flex-direction: column;
+    }
+    .content-2 > .card-1{
+        margin-top: 100px;
+    }
+    .content-2 > .card-2{
+        margin-top: -250px;
+    }
+    .content-2 > .card-3{
+        margin-top: -250px;
+    }
+    .content-2 > h1{
+        position: absolute;
+        margin-top: -1400px;
+    }
+    .content-3{
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .info-3{
+        margin-top: -300px;
+    }
+    .content-3 > img{
+        width: 100vw;
+        height: 415px;
+    }
+    .content-3 > .info-3 > button{
+        margin-top: 500px;
+    }
+    .content-3 > img{
+        margin-top: -500px;
+    }
+    .content-4{
+        width: 100%;
+        height: 1100px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: -100px;
+    }
+    .content-4 > img{
+        position: absolute;
+        width: 100vw;
+        height: 415px;
+        margin-top: 300px;
+    }
+    .content-4 > h1{
+        margin-top: -300px;
+        text-align: center;
+    }
+    .content-4 > .info-4 > button{
+        position: absolute;
+        margin-top:700px;
+        margin-left: 100px;
+    }
+    .content-5{
+        width: 100%;
+        text-align: center;
+        margin-top: -350px;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+    }
+    .info-5{
+        margin-top: -300px;
+        margin-bottom: -300px;
+    }
+    .logo-5{
+        margin-top: -500px;
+    }
+    .content-5 > .info-5 > h4{
+        color: gray;
+    }
+    .content-5 > .logo-5 > img{
+        width:100vw ;
+        height:275px ;
+    }
+    .content-5 > .info-5 > .btn-4{
+        position: absolute;
+        margin-top: 400px;
+        margin-left: -80px;
+    }
+    .content-5 > .info-5 > .btn-5{
+        position: absolute;
+        margin-top: 465px;
+        margin-left: -80px;
+    }
+    .content-6{
+        width: 100%;
+        text-align: center;
+        margin-top: -100px;
+        height: 3650px;
+    }
+    .content-6 > .info-6{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-6 > .info-6 > .card-1{
+        margin-top: 40px;
+    }
+    .content-7{
+        width: 100%;
+        height: 450px;
+    }
+    .content-7 > input{
+        text-align: center;
+        height: 45px;
+        width: 250px;
+        background-color: lightgray;
+        border: none;
+        border-radius: 3px;
+    }
+    .content-7 > button{
+        margin-top: 15px;
+        height: 45px;
+        width: 255px;
+        border-radius: 3px;
+    }
+    footer{
+        width: 100%;
+        height: 1000px;
+        display:flex ;
+        flex-direction: column;
+    }
+    .end{
+        display: flex;
+    }
+    .end-1{
+        margin-top: -50px;
+        margin-bottom: 30px;
+    }
+    .end-2{
+        margin-top: -50px;
+    }
+    nav > .btn-1 > button{
+        margin-left:-20px;
+    }
+    
+}
